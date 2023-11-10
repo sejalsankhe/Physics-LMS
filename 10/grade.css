@@ -1,0 +1,434 @@
+.dashboard {
+    background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.267)), url(../assets/backhome.png);
+    height: 100%;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.btnss {
+    font-size: 20px;
+    background-color: #172047 !important;
+    color: #f4dd3b !important;
+    border: 4px #f4dd3b solid;
+}
+
+.modal-xl {
+
+    max-width: 80% !important;
+
+}
+
+.heropara {
+    background-color: #f4dd3b;
+    color: #172047;
+    padding: 5px;
+    position: fixed;
+    margin-right: auto;
+    z-index: 99;
+    text-align: center;
+    font-size: 15px;
+    right: 0;
+    border: 5px inset #172047;
+
+
+    text-transform: capitalize;
+}
+
+.box {
+    width: 100px;
+    height: auto;
+    background-color: #172047;
+    color: #fff;
+    padding: 20px;
+    position: relative;
+    margin: 40px;
+    border: 5px solid #f4dd3b;
+
+}
+
+.box.arrow-right:after {
+    content: " ";
+    position: absolute;
+    right: -15px;
+    top: 15px;
+    border-top: 15px solid transparent;
+    border-right: none;
+    border-left: 10px solid #f4dd3b;
+    border-bottom: 15px solid transparent;
+
+}
+
+.chps {
+    height: auto;
+    padding-top: 100px;
+    overflow: hidden;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.64), rgba(119, 121, 133, 0.64)), url(../assets/backhome.png);
+}
+
+.chpsa {
+    height: auto;
+    padding-top: 100px;
+    overflow: hidden;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.64), rgba(119, 121, 133, 0.64)), url(../assets/backhome.png);
+}
+
+.imgbo {
+    width: 700px;
+    overflow: auto;
+    margin: auto;
+
+
+}
+
+.outb {
+    margin: 2rem;
+    padding: 20px;
+    background-color: white;
+}
+
+.outb a {
+    font-family: 'Times New Roman', Times, serif;
+    color: #f4dd3b !important;
+    font-size: 20px;
+    text-align: center !important;
+}
+
+.herotext {
+    font-size: 45px;
+    color: #172047;
+    padding-top: 20px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+
+.qni {
+    height: 64px;
+}
+
+.outb a:hover {
+    text-decoration: none;
+
+    border-bottom: #f4dd3b 2px solid;
+}
+
+.box-qn {
+    background-color: white;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.205);
+    height: 100%;
+    border: 5px #f4dd3b solid;
+
+}
+
+.box-cat {
+    background-image: linear-gradient(#17204781, #17204794), url(../backdrop.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    transition: 0.5s;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.205);
+
+    border-radius: 16px;
+    border: 5px solid #f4dd3b;
+    text-align: center;
+}
+
+.box-cat:hover {
+    transform: scale(1.05);
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.459);
+}
+
+.icon-cat {
+    color: #f4dd3b;
+    font-size: 53px;
+}
+
+.name-cat {
+    color: #f4dd3b;
+}
+
+.name-cats {
+    font-size: 25px;
+    color: #f4dd3b;
+}
+
+.link-cat {
+    text-decoration: none;
+}
+
+.link-cat:hover {
+    text-decoration: none;
+}
+
+.img-cat {
+    margin: 0px 0px 8px;
+
+
+}
+
+.img-catcs {
+    margin: 0px 0px 8px;
+    height: 100px;
+
+
+}
+
+.foot {
+    background-color: #172047;
+}
+
+.box-catcs {
+    background-image: linear-gradient(#17204781, #17204794), url(../backdrop.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.5s;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.205);
+    border-radius: 16px;
+    border: 5px solid #f4dd3b;
+    text-align: center;
+}
+
+.box-catcs:hover {
+    transform: scale(1.03);
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.459);
+}
+
+
+@media screen and (max-width: 900px) {
+    .buton {
+        margin: 10px;
+    }
+
+    .solbox {
+        margin: auto;
+
+        text-align: center;
+    }
+
+    .imgbo {
+        width: 620px;
+        overflow: auto;
+        margin: auto;
+
+
+    }
+
+    .outb {
+        margin: 0.4rem
+    }
+
+    .qni {
+        height: 48px;
+    }
+
+}
+
+@media screen and (max-width: 720px) {
+
+
+    .solbox {
+        margin: auto;
+
+        text-align: center;
+    }
+
+    .outb {
+        margin: 0.4rem
+    }
+
+    .qni {
+        height: 48px;
+    }
+
+    .buton {
+        margin: 10px;
+    }
+
+    .imgbo {
+        width: 478px;
+        overflow: auto;
+        margin: auto;
+
+
+    }
+
+}
+
+
+
+@media screen and (max-width: 450px) {
+
+    .imgbo {
+        width: 250px;
+        overflow: auto;
+        margin: auto;
+
+
+    }
+
+    .box {
+        display: block;
+        float: none;
+        width: 70px;
+
+        margin: 2px auto;
+    }
+
+    .outb {
+        margin: 0.4rem
+    }
+
+    .qni {
+        height: 48px;
+    }
+
+    .outb a {
+        font-family: 'Times New Roman', Times, serif;
+        color: #f4dd3b !important;
+        font-size: 10px;
+    }
+
+    .buton {
+        margin: 10px;
+    }
+
+}
+
+.icn-n {
+    font-size: 28px;
+    transition: 0.5s;
+
+}
+
+.icn-n:hover {
+    color: #2C3C5B !important;
+}
+
+.buton {
+    z-index: 1;
+    transition: 0.5s;
+    position: fixed;
+    left: 0;
+    background-color: #f4dd3b;
+    width: 70px;
+    height: 70px;
+    color: #172047;
+    font-size: 30px;
+    margin: 25px;
+    border-radius: 50%;
+    bottom: 0;
+    border: 5px solid#172047;
+    box-shadow: 3px 3px 3px 3px rgba(128, 128, 128, 0.445);
+}
+
+.buton:hover {
+    transform: scale(1.3);
+    box-shadow: 9px 9px 9px 9px rgba(128, 128, 128, 0.445);
+}
+
+/*apply css properties to card class*/
+.content {
+    border: 5px solid #f4dd3b;
+    border-radius: 16px;
+
+}
+
+.contents {
+    border: 5px solid #f4dd3b;
+    border-radius: 16px;
+
+}
+
+.card {
+    height: 220px;
+    max-width: 360px;
+    position: relative;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    background-color: #172047;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.5s;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.205);
+    border-radius: 16px;
+    border: 5px solid #f4dd3b;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+    transition: 0.3s ease-in-out;
+}
+
+/*apply css properties to card class when it get pointed by cursor*/
+
+.card:hover {
+    height: 420px;
+}
+
+/*apply css properties to imgbox class*/
+
+.card .imgbox {
+    position: relative;
+    width: 260px;
+    height: 180px;
+
+    left: 20px;
+}
+
+/*apply css properties to img tag*/
+.card .imgbox img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+/*apply css properties to content class*/
+
+.card .content {
+    position: relative;
+    margin-top: -100px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #fff;
+
+    font-size: 17px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.card .contents {
+    position: relative;
+    margin-top: -100px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #fff;
+    top: 20;
+    font-size: 17px;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+/*apply css properties to content when card gets hovered*/
+
+.card:hover .content {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -10px;
+    transition-delay: 0.3s;
+}
+
+.card:hover .contents {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -10px;
+    transition-delay: 0.3s;
+}
